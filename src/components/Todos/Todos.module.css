@@ -1,0 +1,46 @@
+.todos {
+  margin: auto;
+  max-width: 800px;
+}
+
+.todos h2 {
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.input-group > input[type="text"] {
+  width: calc(100% - 43px);
+}
+
+.todos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todos li {
+  display: flex;
+  margin-block-end: 1rem;
+  justify-content: space-between;
+}
+
+.todos button {
+  cursor: pointer;
+}
+
+.done {
+  background-color: greenyellow;
+}
+
+.done > span {
+  text-decoration: line-through;
+}
+
+@media (max-width: 818px) {
+  .todos {
+    padding: 0 1rem;
+  }
+}
